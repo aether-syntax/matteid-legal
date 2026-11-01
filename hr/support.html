@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="hr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt — MatteID</title>
+<style>
+:root { color-scheme: light dark; --fg:#1a1a1a; --muted:#5d5d5d; --bg:#ffffff;
+        --rule:#e3e3e3; --accent:#2b5c8a; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e9e9e9; --muted:#a6a6a6; --bg:#141414; --rule:#303030; --accent:#7fb2e0; }
+}
+* { box-sizing: border-box; }
+body { margin:0; padding:2.5rem 1.25rem 5rem; background:var(--bg); color:var(--fg);
+       font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width:44rem; margin:0 auto; }
+h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .35rem; }
+h2 { font-size:1.15rem; margin:2.2rem 0 .5rem; }
+p { margin:0 0 1rem; }
+a { color:var(--accent); }
+.sub { color:var(--muted); margin:0 0 1.5rem; }
+.meta { color:var(--muted); font-size:.9rem; border-top:1px solid var(--rule);
+        margin-top:3rem; padding-top:1rem; }
+.note { color:var(--muted); font-size:.95rem; }
+nav.docs { margin:0 0 2rem; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem; }
+ul.langs { list-style:none; padding:0; display:grid; gap:.3rem 1.25rem;
+           grid-template-columns:repeat(auto-fill, minmax(12rem, 1fr)); }
+</style>
+</head>
+<body>
+<main>
+<h1>Kontakt</h1>
+<p class="sub">MatteID</p>
+<p>Fotografije za putovnice i osobne iskaznice, izrađene na vašem telefonu i nikad prenesene na poslužitelj.</p>
+<p class="note">Oba su dokumenta pohranjena u aplikaciji i otvaraju se bez internetske veze.</p>
+<p class="note">MatteID razvija Aether Syntax. Gdje ovi dokumenti navode „mi”, misli se na Aether Syntax.</p>
+<p><a href="mailto:info@aethersyntax.com">info@aethersyntax.com</a></p>
+<nav class="docs"><a href="privacy.html">Pravila privatnosti</a><a href="terms.html">Uvjeti korištenja</a></nav>
+<p class="meta"><a href="https://apps.apple.com/app/id6826648511">App Store</a> <a href="https://play.google.com/store/apps/details?id=com.aethersyntax.matteid">Google Play</a></p>
+</main>
+</body>
+</html>
